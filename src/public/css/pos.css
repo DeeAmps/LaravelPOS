@@ -1,0 +1,122 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    background-color: #e0e0e0;
+}
+
+.pos-left-div {
+    border-left: solid 3px #428bca;
+    height: 700px;
+    border-bottom: solid 3px #428bca;
+}
+
+.pos-right-div {
+    border-right: solid 3px #428bca;
+    border-left: solid 3px #428bca;
+    border-bottom: solid 3px #428bca;
+}
+.pos-search-form-container {
+    background-color: #428bca;
+    height: 15%;
+    
+}
+
+.sale-order-header {
+    background-color: #428bca;
+    height: 15%;
+}
+
+.total-header {
+    background-color: beige;
+    margin-top: 4px;
+}
+.total-content {
+    border-left: solid 2px beige;
+    border-right: solid 2px beige;
+    border-bottom: solid 2px beige;
+    padding: 5px 10px 10px 5px;
+    color: beige;
+    font-size: 20px;
+    font-weight: bold;
+    height: 50px;
+}
+#vat-value, #sub-total-value {
+    margin: auto;
+}
+
+.summary-header {
+    font-weight: bold;
+    color: #428bca;
+    margin: auto;
+}
+
+
+
+.orders-table {
+    height: 600px;
+    overflow:auto;
+}
+
+.slider::-moz-range-thumb {
+    width: 100%;
+    height: 25px;
+    background: #4CAF50;
+    cursor: pointer;
+}
+
+.receipt-wrapper {
+    display: none;
+}
+
+@media print {
+    @page{
+        size: 0;
+        margin: 0mm;
+      }
+    .main-page, .menubar {
+        display: none;
+        
+    }
+    .receipt-wrapper {
+        display: block;
+    }  
+    .receipt-header {
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .receipt-header-item {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .receipt-info {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .receipt-info-item {
+        font-size: 15px;
+        font-weight: bold;
+    }
+
+    .receipt-footer {
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+    .receipt-footer-item {
+        font-size: 25px;
+        font-weight: bold;
+    }
+
+    .notification {
+        display: none;
+    }
+
+    .search-result {
+        cursor: pointer !important;
+    }
+}

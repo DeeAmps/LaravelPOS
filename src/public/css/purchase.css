@@ -1,0 +1,13 @@
+html, body {
+    background-color: #e0e0e0;
+}
+.search-result-item:hover {
+    background-color: black;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.card .card-header {
+    background-color: black;
+    color: #ffffff;
+}

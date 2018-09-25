@@ -1,0 +1,142 @@
+.inventory-bar {
+    height: 50px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    margin-bottom: 10px;
+    /* background-color: #5bc0de; */
+    background-color: #dcdee2;
+}
+
+
+#inventory-menu-wrapper {
+    float: right;
+    height: 100%;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    text-decoration: none;
+}
+
+
+#inventory-menu-wrapper li {
+    text-decoration: none;
+    margin-top: 2px;
+    margin-right: 20px;
+    align-items: middle;
+    text-align: center;
+    padding: 15px 5px 0 5px;
+    color: #727272;
+    font-weight: bold;
+    font-size: 20px;
+    cursor: pointer;
+    border-left: 1px solid #b7b7b7;
+    border-right: 1px solid #b7b7b7;
+}
+
+
+.inventory-menu-item a {
+    color: #0a294c !important;
+}
+
+
+#inventory-menu-wrapper li:hover {
+    background-color: #17a2b8;
+    color: #ffffff;
+}
+
+.inventory-menu-item .dropdown-toggle::after {
+    display:none;
+}
+
+.inventory-menu-item .dropdown-menu {
+    background: #17a2b8;
+    margin-right: 0;
+}
+
+.inventory-menu-item .dropdown-item, .inventory-menu-item a {
+    color: #ffffff;
+    font-size: 18px;
+}
+
+.inventory-content-wrapper {
+    padding-top: 35px;
+    height: calc(100vh-2px);
+    background: inherit;
+}
+
+.inventory-left-div {
+    padding-top: 5px;
+    height: 100%;
+    background-color:#eff2f7;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+}
+
+.inventory-right-div {
+    height: 100%;
+    padding-left: 5px;
+    background-color: #eff2f7;
+}
+
+/* td button {
+    margin-right: 5px;
+} */
+
+
+/* .product-info-wrapper {
+    width: 100%;
+    height: 500px;
+    box-shadow: 2px 2px 8px rgba(0,0,0,0.2);
+    padding: 10px;
+} */
+
+/* .product-info-wrapper .info-list {
+    font-weight: bold;
+    color: #7b7e82;
+    font-size: 25px;
+    margin-bottom: 20px;
+} */
+
+td .btn:hover {
+    background-color: aqua;
+}
+
+
+
+.inventory-menu-item a:hover {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+a {
+    text-decoration: none !important;
+    color: inherit;
+}
+
+a:hover {
+    text-decoration: none;
+    color: inherit;
+}
+
+.inventory-bar .page-title {
+    margin-top: 15px; 
+    float: left;
+}
+
+.inventory-bar .page-title span{
+    color: #727272;
+    font-size: 25px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.list-wrapper {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.list-item {
+    margin-right: 10px;
+}

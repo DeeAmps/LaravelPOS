@@ -1,0 +1,42 @@
+body, html {
+    height: 100%;
+    width: 100%;
+    overflow-y: hidden;
+    background-color: #e0e0e0;
+}
+
+.main-row {
+    height: 100vh;
+}
+
+.report-filter {
+    box-shadow: 30px 0px 30px -30px rgba(0,0,0,0.2);
+    height: 80%;
+}
+
+.report-container {
+    height: 80%;
+    overflow-y: auto;
+    
+}
+
+.product-list-container {
+    height: 70%;
+    overflow-y: auto;
+    border-bottom: #39465b solid 4px;
+}
+
+.report-entry {
+    cursor: pointer;
+}
+
+.report-entrys:hover {
+    background-color: aqua;
+}
+
+
+.report-entry-active {
+    background-color: #39465b;
+    color: white;
+    font-weight: bold;
+}
